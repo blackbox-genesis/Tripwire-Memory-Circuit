@@ -31,7 +31,7 @@ AraC activates itself after a trigger. This module helps understand persistent m
 ### **Integrated System - Tripwire Logic**
 - IPTG flips memory ON  
 - AHL triggers output only if memory is present  
-- After a while, memory decays → circuit resets itself
+- After a while, memory decays -> circuit resets itself
 
 ---
 
