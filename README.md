@@ -48,8 +48,6 @@ Each module and the final circuit include plotted outputs (time vs concentration
 - roadrunner simulations  
 - matplotlib for plotting
 
-Everything’s clean, modular, and meant to be understandable if you're into synthetic biology or just curious about how logic can be done with genes.
-
 ---
 
 ## Author Notes
