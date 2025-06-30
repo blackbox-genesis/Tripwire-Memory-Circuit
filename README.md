@@ -1,16 +1,16 @@
 # Tripwire Memory Logic Circuit
 
 This is one of the most advanced genetic logic circuits I’ve built so far.  
-It combines memory, logic gating, and reset into a single design — kind of like a finite state machine (FSM), but built from genes, not silicon.
+It combines memory, logic gating, and reset into a single design - kind of like a finite state machine (FSM), but built from genes, not silicon.
 
-The system works like a **tripwire**: one input flips memory ON, another triggers output *only if* memory is active. Then after some time, memory fades — making the circuit respond only once unless retriggered.
+The system works like a **tripwire**: one input flips memory ON, another triggers output *only if* memory is active. Then after some time, memory fades - making the circuit respond only once unless retriggered.
 
 ---
 
 ## What This Project Shows
 
 - **Genetic memory** using AraC (triggered by IPTG)
-- **AND logic gate** with memory + real-time signal (AraC + AHL → GFP)
+- **AND logic gate** with memory + real-time signal (AraC + AHL -> GFP)
 - **Self-latching feedback loop**
 - **Output that depends on both sequence and timing**
 - A timed **reset** as AraC decays
